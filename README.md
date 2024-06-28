@@ -1,4 +1,14 @@
-# Aplikasi KAS-RT Menggunakan Google Spreadsheet
+# Aplikasi KAS-RT Tetangga Kita
+
+Demo Aplikasi : [*Demo-App-TetanggaKita-kasRT*](https://youtu.be/D1AgWG92r88?si=l-yqSluedo2ZwGTS)
+
+
+Download Aplikasi : [*Download-APP-TetanggaKita*](https://s.id/APK-Tetangga-Kita)
+
+
+Tutorial PDF : [*Tutorial-APP-TetanggaKita-kasRT-PDF*](https://drive.google.com/file/d/1Qk__4uNwtWf3fqOvomfaRmAuBBLPwLTw/view?usp=sharing)
+
+
 
 | Nama  | NIM | KELAS |
 | ------------- | ------------- | ------------- |
@@ -23,7 +33,7 @@ Aplikasi ini memanfaatkan API spreadsheet untuk mengakses data keuangan secara r
 - **Bagikan Info:** Fasilitas untuk membagikan informasi melalui WhatsApp.
 - **Pusat Bantuan:** Menyajikan Pdf Tutorial cara penggunaan Aplikasi Tetangga Kita.
 - **Pengaduan:** Fitur untuk menyampaikan keluhan atau masukan.
-- **Hot New:** Sebuah fitur Berita Terkini.
+- **Hot News:** Sebuah fitur Berita Terkini.
 - **Riwayat Notifikasi:** Menyimpan catatan notifikasi yang telah diterima pengguna.
 
 ## Langkah-langkah Praktikum
@@ -49,18 +59,36 @@ Aplikasi ini memanfaatkan API spreadsheet untuk mengakses data keuangan secara r
 
 Tambahkan dependensi berikut ke file `build.gradle` proyek Anda:
 
-    ```groovy
-    dependencies {
-        implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-        implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-        implementation 'com.google.code.gson:gson:2.8.6'
-        // Tambahkan dependensi lainnya sesuai kebutuhan proyek
-    }
+      dependencies {
 
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-**Tutorial**<br>
-Tutorila Youtube : [*Tutorial-APP-kasRT-Youtube*](https://youtube.com/playlist?list=PLiYEX83BzXp9HkvQgeTzwZ2Eo8UflZOFe&si=gu-1iKdB4hPGOI4d)<br>
-Tutorial PDF : [*Tutorial-APP-kasRT-PDF*](https://drive.google.com/file/d/15FxaZ8k_uAQm8uKxShqEx-lFvNk4l85S/view)
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("com.github.bumptech.glide:glide:4.11.0")
+    implementation("com.loopj.android:android-async-http:1.4.9")
+
+    implementation("com.google.code.gson:gson:2.8.9")
+
+    implementation("com.squareup.retrofit2:retrofit:2.6.4")
+    implementation("com.squareup.retrofit2:converter-gson:2.6.4")
+
+    implementation("com.squareup.okhttp3:logging-interceptor:3.8.0")
+    debugImplementation("com.github.chuckerteam.chucker:library:3.3.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
+
+    implementation("com.google.firebase:firebase-config-ktx:22.0.0")
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-messaging-ktx:23.2.1")
+
+      }
+
 
 
   <p align="center">
