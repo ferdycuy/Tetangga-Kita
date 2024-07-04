@@ -21,10 +21,6 @@ Tutorial PDF : [*Tutorial-APP-TetanggaKita-kasRT-PDF*](https://drive.google.com/
 
 Aplikasi ini memanfaatkan API spreadsheet untuk mengakses data keuangan secara real-time dari spreadsheet yang tersedia. Dengan ini, aplikasi selalu mendapatkan informasi terkini tanpa perlu intervensi manual.
 
-## Keuntungan Penggunaan Parsing JSON
-
-- **Otomatisasi Proses:** Parsing JSON memungkinkan aplikasi secara otomatis memproses data yang diambil dari spreadsheet, seperti perhitungan saldo, pembuatan laporan, dan visualisasi data.
-- **Integrasi Mudah:** Metode ini memudahkan integrasi dengan aplikasi lain yang membutuhkan data keuangan real-time, seperti aplikasi pembukuan atau analisis keuangan.
 
 ## Fitur-fitur Aplikasi
 
@@ -88,6 +84,10 @@ Tambahkan dependensi berikut ke file `build.gradle` proyek Anda:
     implementation("com.google.firebase:firebase-messaging-ktx:23.2.1")
 
       }
+## Keuntungan Penggunaan Parsing JSON
+
+- **Otomatisasi Proses:** Parsing JSON memungkinkan aplikasi secara otomatis memproses data yang diambil dari spreadsheet, seperti perhitungan saldo, pembuatan laporan, dan visualisasi data.
+- **Integrasi Mudah:** Metode ini memudahkan integrasi dengan aplikasi lain yang membutuhkan data keuangan real-time, seperti aplikasi pembukuan atau analisis keuangan.
 
 
 
