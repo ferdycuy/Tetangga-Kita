@@ -19,8 +19,7 @@ Tutorial PDF : [*Tutorial-APP-TetanggaKita-kasRT-PDF*](https://drive.google.com/
 
 # Tetangga Kita App
 
-Aplikasi ini memanfaatkan API spreadsheet untuk mengakses data keuangan secara real-time dari spreadsheet yang tersedia. Dengan ini, aplikasi selalu mendapatkan informasi terkini tanpa perlu intervensi manual.
-
+Aplikasi Tetangga Kita adalah sebuah aplikasi berbasis mobile yang dirancang untuk membantu pengelolaan data warga, keuangan RT, dan berbagai informasi penting lainnya yang relevan bagi komunitas atau lingkungan RT/RW. Aplikasi ini memudahkan ketua RT, pengurus, dan warga dalam mengakses informasi dan berkomunikasi.
 
 ## Fitur-fitur Aplikasi
 
